@@ -72,6 +72,9 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'djangoGames.wsgi.application'
 
+# For channels
+ASGI_APPLICATION = 'djangoGames.asgi.application'
+
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
