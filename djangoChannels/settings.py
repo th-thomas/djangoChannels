@@ -59,7 +59,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'djangoGames.wsgi.application'
+WSGI_APPLICATION = 'djangoChannels.wsgi.application'
 
 
 # Database
@@ -117,7 +117,7 @@ STATIC_URL = '/static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # channels specifics
-ASGI_APPLICATION = 'djangoGames.asgi.application'
+ASGI_APPLICATION = 'djangoChannels.asgi.application'
 CHANNEL_LAYERS = {
     'default': {
         'BACKEND': 'channels_redis.core.RedisChannelLayer',

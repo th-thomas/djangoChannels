@@ -5,7 +5,7 @@ from channels.routing import ProtocolTypeRouter, URLRouter
 from django.core.asgi import get_asgi_application
 
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'djangoGames.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'djangoChannels.settings')
 
 application = ProtocolTypeRouter({
     "http": get_asgi_application(),
